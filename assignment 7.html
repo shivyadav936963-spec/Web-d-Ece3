@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menus</title>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #1f3a5f;
+    }
+    .horizontal {
+      overflow: hidden;
+    }
+    .horizontal li {
+      float: left;
+    }
+    .horizontal li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 20px 25px;
+    }
+    .horizontal li a.active {
+      background-color: #e91e4d;
+    }
+    .vertical {
+      width: 225px;
+    }
+    .vertical li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 20px 25px;
+      font-size: 17px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Horizontal Menu</h2>
+  <ul class="horizontal">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Courses</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <h2>Vertical Menu</h2>
+  <ul class="vertical">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+</body>
+</html>
